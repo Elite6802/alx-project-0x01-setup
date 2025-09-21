@@ -1,5 +1,6 @@
 import React from 'react';
 import Head from 'next/head';
+import Header from "@/components/layout/Header";
 
 // The main page to display a list of users.
 const UsersPage: React.FC = () => {
