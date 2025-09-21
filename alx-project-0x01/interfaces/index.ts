@@ -29,6 +29,10 @@ export interface User {
   };
 }
 
+export interface UserProps {
+  user: User;
+}
+
 export interface Welcome {
     id:       number;
     name:     string;

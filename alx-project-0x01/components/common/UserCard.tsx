@@ -1,11 +1,7 @@
 import React from 'react';
-import { User } from '../../interfaces';
+import { UserProps } from '@/interfaces';
 
-interface UserCardProps {
-  user: User;
-}
-
-const UserCard: React.FC<UserCardProps> = ({ user }) => {
+const UserCard: React.FC<UserProps> = ({ user }) => {
   return (
     <div className="bg-white p-6 rounded-xl shadow-lg hover:shadow-2xl transition-shadow duration-300 transform hover:-translate-y-1 my-4">
       <div className="flex items-center space-x-4">
